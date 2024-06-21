@@ -1,0 +1,199 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.profile-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.profile-container .sidebar {
+  width: 25rem;
+  height: auto;
+  background-color: #18518a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container .profile-pic {
+  margin-bottom: 1rem;
+}
+
+.profile-container .profile-pic-large {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container .sidebar h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.profile-container .sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin-left: 10rem;
+}
+
+.profile-container .sidebar ul li {
+  padding: 10px 0;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.profile-container .logout-button {
+  margin-top: 6rem;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+
+.profile-container .logout-button:hover {
+  background-color: #c0392b;
+}
+
+.profile-container .profile-details {
+  width: 75%;
+  padding: 40px;
+}
+
+.profile-container .profile-details h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.profile-container .profile-details p {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.profile-container .profile-form {
+  align-items: center;
+  display: flex;
+}
+
+.profile-container .profile-form form {
+  width: 30rem;
+  margin-left: 4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container .profile-form label {
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+.profile-container .profile-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #bdc3c7;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+
+.profile-container .choose-photo-button,
+.profile-container .delete-photo-button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.profile-container .choose-photo-button {
+  background-color: #18518a;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.profile-container .delete-photo-button {
+  background-color: #FFFF;
+  color: #18518a;
+  border: 1px solid #18518a;
+  font-size: 1.2rem;
+}
+
+.profile-container .choose-photo-button:hover {
+  background-color: #FFFF;
+  color: #18518a;
+  border: 1px solid #18518a;
+}
+
+.profile-container .delete-photo-button:hover {
+  background-color: #18518a;
+  color: white;
+}
+
+.profile-container .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.profile-container .edit-button,
+.profile-container .save-button {
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.profile-container .edit-button {
+  background-color: #FFFF;
+  color: #18518a;
+  border: 1px solid #18518a;
+}
+
+.profile-container .save-button {
+  background-color: #18518a;
+  color: white;
+}
+
+.profile-container .edit-button:hover{
+  background-color: #18518a;
+  color: white;
+}
+
+.profile-container .save-button:hover {
+  background-color: #FFFF;
+  color: #18518a;
+  border: 1px solid #18518a;
+}
+
+.profile-container a {
+  text-decoration: none;
+  color: white;
+}

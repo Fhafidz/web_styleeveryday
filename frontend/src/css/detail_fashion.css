@@ -1,0 +1,119 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.detail-fashion {
+  height: 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 4rem;
+}
+
+.detail-fashion img {
+  width: 30rem;
+  height: 30rem;
+  border-right: 1px solid #ccc;
+}
+
+.detail-fashion .info {
+  display: block;
+  margin-left: 20px;
+}
+
+.detail-fashion h1 {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.detail-fashion h2 {
+  font-size: 2rem;
+  color: #18518a;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.detail-fashion h3 {
+  color: #18518a;
+  font-size: 1.2rem;
+}
+
+.detail-fashion p {
+  font-size: 1.2rem;
+  color: #000;
+  margin-top: 2rem;
+}
+
+.detail-fashion .size-selector {
+  margin: 20px 0;
+  display: block;
+}
+
+.detail-fashion .size-selector h4 {
+  font-size: 1.2rem;
+}
+
+.detail-fashion .size-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.detail-fashion .size-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.detail-fashion .checkout-button,
+.detail-fashion .love-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.detail-fashion .checkout-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  border: 1px solid #18518a;
+  background-color: #18518a;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.detail-fashion .checkout-button:hover {
+  background-color: #fff;
+  color: #18518a;
+}
+
+.defash1 {
+  border: 1px solid #ccc; /* Tepi kotak dengan warna abu-abu */
+  padding: 20px; /* Jarak dalam kotak */
+  margin: 20px auto; /* Margin atas-bawah dan mengatur kotak agar berada di tengah secara horizontal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan kotak untuk efek 3D */
+  width: 1250px; /* Lebar maksimal kotak */
+  background-color: #fff; /* Warna latar belakang kotak */
+}

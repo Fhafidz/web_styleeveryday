@@ -1,0 +1,125 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.detail-article {
+  height: 600px;
+  width: 1000px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 60rem;
+}
+
+.detail-article h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.detail-article p.date {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.detail-article p.desc {
+  color: #555;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+}
+
+.detail-article .image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detail-article .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.detail-article .date {
+  text-align: center;
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.detail-article h2 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.detail-article ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.detail-article ul li {
+  margin-bottom: 10px;
+}
+
+.detail-article a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.detail-article a:hover {
+  text-decoration: underline;
+}
+
+/* STYLE garis teks tengah */
+.detfat7 .line-with-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 14rem;
+  margin-bottom: 2rem;
+}
+
+.detfat7 .line-with-text::before,
+.detfat7 .line-with-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 5px solid #000000;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.detfat7 .line-with-text::before {
+  margin-right: 1rem;
+}
+
+.detfat7 .line-with-text::after {
+  margin-left: 1rem;
+}
+
+.detfat7 .line-with-text span {
+  white-space: nowrap;
+  font-size: 3rem;
+}
+

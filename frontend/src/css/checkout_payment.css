@@ -1,0 +1,139 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.checkout-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+}
+
+.checkout-pay .back-button {
+  background-color: #fff;
+  color: #18518a;
+  border: none;
+  border-radius: 1rem;
+  border: 1px solid #18518a;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.checkout-pay .back-button:hover {
+  background-color: #133d67;
+  color: #fff;
+}
+
+.checkout-pay .summary-order,
+.checkout-pay .delivery-payment,
+.checkout-pay .shopping-summary {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.checkout-pay .summary-order h2,
+.checkout-pay .delivery-payment h2,
+.checkout-pay .shopping-summary h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 2rem;
+}
+
+.checkout-pay .summary-order p,
+.checkout-pay .delivery-payment p,
+.checkout-pay .shopping-summary p {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.checkout-pay .items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.checkout-pay .item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.checkout-pay .item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.checkout-pay .item-details h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.checkout-pay .delivery-option {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.checkout-pay .delivery-option select,
+.checkout-pay .payment-details select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+.checkout-pay .shopping-summary .summary-details {
+  margin-top: 20px;
+}
+
+.checkout-pay .shopping-summary .summary-details p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.checkout-pay .shopping-summary .summary-details hr {
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.checkout-pay .pay-button {
+  background-color: #18518a;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+  width: 25rem;
+}
+
+.checkout-pay .pay-button:hover {
+  background-color: #133d67;
+}
+

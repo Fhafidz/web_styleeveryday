@@ -1,0 +1,90 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.wardrobe {
+  text-align: center;
+}
+
+.wardrobe h1 {
+  font-size: 3rem;
+  color: #6dcdb1;
+  margin-bottom: 20px;
+  font-weight: 1;
+  margin-top: 2rem;
+}
+
+.wardrobe .main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wardrobe .main .item {
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.wardrobe .main .item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.wardrobe .main .item p {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.wardrobe .main .item .price {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.wardrobe .main .item .wishlist-icon {
+  color: red;
+  font-size: 1.5em;
+}
+
+.wardrobe .btn {
+  margin-top: 20px;
+}
+
+.wardrobe .btn a {
+  text-decoration: none;
+}
+
+.wardrobe .btn button {
+  background-color: #18518A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.wardrobe .btn button:hover {
+  background-color: #FFFF;
+  color: #18518A;
+  border: 1px solid #18518A;
+}

@@ -1,0 +1,157 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.checkout .content-1 {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.checkout .back-button {
+  background-color: #fff;
+  color: #18518a;
+  border: none;
+  border-radius: 1rem;
+  border: 1px solid #18518a;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.checkout .back-button:hover {
+  background-color: #133d67;
+  color: #fff;
+}
+
+.checkout .content-1 h1 {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.checkout .content-1 p {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.checkout .content-1 table {
+  width: 45rem;
+  border-collapse: collapse;
+}
+
+.checkout .content-1 th,
+.checkout .content-1 td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.checkout .content-1 th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.checkout .product-image {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.checkout .content-2 {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.checkout .content-2 h2 {
+  margin-bottom: 10px;
+  color: #000;
+  margin-left: 2rem;
+}
+
+.checkout .content-2 p {
+  margin-bottom: 20px;
+  color: #000;
+  margin-left: 2rem;
+}
+
+.checkout .content-2 form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.checkout .content-2 label {
+  margin-bottom: 15px;
+}
+
+.checkout .content-2 label input,
+.checkout .content-2 label textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.checkout .content-2 label textarea {
+  resize: vertical;
+}
+
+.checkout .btn-next {
+  background-color: #18518a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.checkout .btn-next:hover {
+  background-color: #133d67;
+}
+
+.checkout .btn-quantity {
+  background-color: #18518a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 10px;
+  margin: 0 5px;
+}
+
+.checkout .btn-quantity:hover {
+  background-color: #133d67;
+}

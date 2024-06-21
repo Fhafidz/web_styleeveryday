@@ -1,0 +1,129 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.art-formal .cards-section {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+/* STYLE atformal6 ATAU content-6 */
+.art-formal .atformal6 {
+  height: 600px;
+  position: relative;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.art-formal .atformal6 .content-6 img {
+  max-width: 84.3rem;
+}
+
+.art-formal .art-compo2 {
+  margin-top: 2rem;
+}
+
+.art-formal .art-compo3 {
+  margin-top: 2rem;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  max-width: auto;
+  color: #000000;
+  background-color: #000000;
+  margin-bottom: 4rem;
+}
+
+/* STYLE garis teks tengah */
+.art-formal .line-with-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.art-formal .line-with-text::before,
+.art-formal .line-with-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 5px solid #000000;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.art-formal .line-with-text span {
+  white-space: nowrap;
+  font-size: 4rem;
+}
+
+/* STYLE atformal7 ATAU CONTENT-7 */
+.art-formal .atformal7 .content-7 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Menambahkan jarak antar kolom */
+  padding-right: 6rem;
+  padding-left: 3rem;
+}
+
+/* STYLE atformal8 ATAU CONTENT-8 */
+.art-formal .atformal8 {
+  height: 600px;
+  position: relative;
+  background-color: #ffffff;
+  margin-left: 5rem;
+}
+
+.art-formal .atformal8 h1 {
+  color: #000000;
+  font-size: 4rem;
+  font-weight: 1;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.art-formal .atformal8 .fash-compo {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* STYLE atformal9 ATAU CONTENT-9 */
+.art-formal .atformal9 {
+  height: 600px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.art-formal .atformal9 h1 {
+  color: #000000;
+  font-size: 4rem;
+  font-weight: 1;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.art-formal .atformal9 .place .first {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

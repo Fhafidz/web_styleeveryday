@@ -1,0 +1,74 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.email-send-container {
+  display: flex;
+  flex-direction: column; /* Mengubah tata letak menjadi vertikal */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.email-send-container h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-weight: 1;
+}
+
+.email-send-container p {
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: 1;
+  margin-bottom: 30px;
+}
+
+.email-send-actions {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.email-send-container .link-text {
+  color: #1e73be;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.email-send-container .link-text:hover {
+  color: #155a8a;
+}
+
+.email-send-container .continue-button {
+  width: 30%;
+  padding: 16px;
+  background-color: #1e73be;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px; /* Menambahkan margin atas */
+}
+
+.email-send-container .continue-button:hover {
+  background-color: #fff;
+  color: #155a8a;
+  border: 1px solid #155a8a;
+}
+

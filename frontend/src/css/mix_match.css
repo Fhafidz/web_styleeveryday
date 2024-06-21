@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+.mix-match-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mix-match-container .selected-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.mix-match-container .selected-item {
+  margin: 10px 0;
+}
+
+.mix-match-container .selected-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.mix-match-container .checkout-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #18518A;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.mix-match-container .checkout-button:hover {
+  background-color: #FFFF;
+  color: #18518A;
+  border: 1px solid #18518A;
+
+}
+
+.mix-match-container .items {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.mix-match-container .category {
+  margin-bottom: 20px;
+}
+
+.mix-match-container .category h3 {
+  margin-bottom: 10px;
+}
+
+.mix-match-container .items-list {
+  display: flex;
+  overflow-x: auto;
+}
+
+.mix-match-container .items-list img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}

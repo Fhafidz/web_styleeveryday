@@ -1,0 +1,55 @@
+/* STYLE NAVBAR */
+
+.navbar-3 nav {
+  max-width: 1500px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav img {
+  max-width: 10rem;
+  margin-left: 4rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 28rem;
+}
+
+.link a {
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: #000000;
+  font-size: 1.3rem;
+}
+
+.link a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ce3375;
+  transition: all 0.5s ease;
+}
+
+.link a:hover::after {
+  width: 70%;
+  height: 10%;
+}
+
+.link a:hover {
+  color: #ce3375;
+}

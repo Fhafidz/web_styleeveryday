@@ -1,0 +1,130 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.signup {
+  display: flex;
+  height: 100vh;
+}
+
+.signup-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffff;
+  margin-left: 7rem;
+}
+
+.signup-form h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: left;
+  
+}
+
+.signup-form form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.signup .form-group input {
+  width: 100%;
+  padding: 15px 40px 15px 15px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.signup-form p {
+  color: #000;
+  margin: 1rem;
+  text-align: center;
+  margin-right: 10rem;
+}
+
+.signup .form-group .icon {
+  position: absolute;
+  right: 1rem;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #18518a;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.signup-button:hover {
+  background-color: #ffff;
+  color: #18518a;
+  border: 1px solid #18518a;
+}
+
+.signup .google-signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: #18518a;
+  border: 1px solid #18518a;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.signup .google-signup-button:hover {
+  background-color: #18518a;
+  color: white;
+}
+
+.signup .google-signup-button img {
+  margin-right: 10px;
+}
+
+.signup-image img {
+  width: 41rem;
+  height: 40rem;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #18518a;
+}
+
+.signup .form-group label {
+  margin-left: 1rem;
+}

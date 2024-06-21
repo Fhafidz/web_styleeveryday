@@ -1,0 +1,151 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+    font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+/* STYLE article6 ATAU content-6 */
+.article-page .article6 {
+  height: 600px;
+  position: relative;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.article-page .article6 .content-6 img {
+  max-width: 84.3rem;
+}
+
+.article-page .cards-section {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+
+hr {
+  border: none;
+  height: 3px;
+  max-width: auto;
+  color: #000000;
+  background-color: #000000;
+  margin-bottom: 4rem;
+}
+
+/* STYLE garis teks tengah */
+.article-page .line-with-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.article-page .line-with-text::before,
+.article-page .line-with-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 5px solid #000000;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.article-page .line-with-text::before {
+  margin-right: 1rem;
+}
+
+.article-page .line-with-text::after {
+  margin-left: 1rem;
+}
+
+.article-page .line-with-text span {
+  white-space: nowrap;
+  font-size: 4rem;
+}
+
+/* STYLE article7 ATAU CONTENT-7 */
+.article-page .article7 .content-7 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Menambahkan jarak antar kolom */
+  padding-right: 6rem;
+  padding-left: 3rem;
+}
+
+.article-page .article7 .content-7 img {
+  max-width: 25rem;
+}
+
+.article-page .article7 .content-7 span img {
+  margin-top: 1.2rem;
+  width: 25rem;
+  height: 26rem;
+}
+
+/* STYLE article8 ATAU CONTENT-8 */
+.article-page .article8 .content-8 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Menambahkan jarak antar kolom */
+  padding-right: 6rem;
+  padding-left: 3rem;
+}
+
+.article-page .article8 .content-8 img {
+  max-width: 25rem;
+}
+
+.article-page .article8 .content-8 span img {
+  margin-top: 1.2rem;
+  width: 25rem;
+  height: 26rem;
+}
+
+/* STYLE article9 ATAU CONTENT-9 */
+.article-page .article9 .content-9 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Menambahkan jarak antar kolom */
+  padding-right: 6rem;
+  padding-left: 3rem;
+}
+
+.article-page .article9 .content-9 img {
+  max-width: 25rem;
+  margin-bottom: 4rem;
+}
+
+.article-page .article9 .content-9 span img {
+  margin-top: 1.2rem;
+  width: 25rem;
+  height: 26rem;
+}
+
+.article-page .article7 img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.article-page .article8 img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.article-page .article9 img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+

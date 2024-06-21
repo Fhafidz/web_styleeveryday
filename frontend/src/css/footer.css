@@ -1,0 +1,47 @@
+footer {
+  height: 180px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #18518a;
+  padding: 4rem;
+}
+
+footer .content-6 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50rem;
+}
+
+footer .content-6 h1,
+h2,
+p {
+  color: #ffffff;
+  font-weight: 1;
+}
+
+footer .content-6 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+footer .content-6 p {
+  font-size: 1.1rem;
+}
+
+footer .content-6 h2 {
+  font-size: 1.5rem;
+}
+
+.right {
+  width: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.left .instagram {
+  width: 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+.signin {
+  display: flex;
+  height: 40rem;
+}
+
+.signin-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffff;
+}
+
+.signin-form h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.signin-form form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.signin .input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.signin .input-group input {
+  width: 100%;
+  padding: 15px 40px 15px 15px;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.signin-form p {
+  color: #000;
+  margin: 1rem;
+}
+
+.signin .input-group .icon {
+  position: absolute;
+  right: 1rem;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+.signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #18518a;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.signin-button:hover {
+  background-color: #ffff;
+  color: #18518a;
+  border: 1px solid #18518a ;
+}
+
+.signin .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.signin .google-signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: #18518a;
+  border: 1px solid #18518a;
+  border-radius: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.signin .google-signin-button:hover {
+  background-color: #18518a;
+  color: white;
+}
+
+.signin .google-signin-button .google-icon {
+  margin-right: 10px;
+}
+
+.signin-image img {
+  width: 41rem;
+  height: 40rem;
+}
+
+.signin a {
+    text-decoration: none;
+    color: #18518a;
+}
+
+.signin .input-group label {
+  margin-left: 1rem;
+}

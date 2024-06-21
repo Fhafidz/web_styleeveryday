@@ -1,0 +1,109 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* STYLE BODY */
+body {
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+/* STYLE about1 ATAU CONTENT-1 */
+.about9 {
+  position: relative;
+  display: block;
+  background-color: #ffff;
+  padding: 2rem; /* Tambahkan padding untuk memberi ruang */
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.about9 h1 {
+  font-size: 3rem;
+  color: #18518a;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 1;
+}
+
+.about9 h1 span {
+  color: #863fce;
+}
+
+.team-member-container {
+  background-color: #ffff;
+  border: 3px solid #333;
+  border-radius: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.team-member {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Menyesuaikan lebar gambar dan teks */
+  gap: 3rem; /* Jarak antar kolom */
+  align-items: center; /* Pusatkan secara vertikal */
+  margin-left: 10rem;
+}
+
+.member-1,
+.member-2,
+.member-3,
+.member-4,
+.member-5,
+.member-6 {
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.member-1 h3,
+.member-2 h3,
+.member-3 h3,
+.member-4 h3,
+.member-5 h3,
+.member-6 h3 {
+  font-size: 2rem;
+  color: #0056b3;
+  font-weight: 1;
+}
+
+.member-1 p,
+.member-2 p,
+.member-3 p,
+.member-4 p,
+.member-5 p,
+.member-6 p {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 1;
+}
+
+.member-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* Tengahkan teks secara horizontal */
+}
+
+.team-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}

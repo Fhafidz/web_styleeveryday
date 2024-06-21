@@ -1,0 +1,127 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+/* STYLE Fashion1 */
+.fashion1 {
+  height: 600px;
+  position: relative;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.fashion1 .content-6 img {
+  max-width: 84.3rem;
+}
+
+/* STYLE Fashion2 */
+
+.fashion2 {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+}
+
+.fashion2 .content-3 {
+  display: flex;
+  justify-content: space-between; /* Menjaga jarak antar item */
+  align-items: center; /* Menyelaraskan item secara vertikal */
+}
+
+.fashion2 .content-3 .main img {
+  height: 424px;
+  width: 530px;
+}
+
+.fashion2 .content-3 .second {
+  margin-top: 1rem;
+  margin-left: 1.4rem;
+}
+
+/* STYLE Fashion3 */
+.fashion3 {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  margin-top: 3rem;
+}
+
+.fashion3 .content-2 {
+  display: flex;
+  justify-content: space-between; /* Menjaga jarak antar item */
+  align-items: center; /* Menyelaraskan item secara vertikal */
+}
+
+.fashion3 .content-2 .main img {
+  height: 420px;
+  width: 530px;
+}
+
+.fashion3 .content-2 .second {
+  margin-left: 1.4rem;
+  margin-top: 1rem;
+}
+
+/* STYLE Fashion4 */
+.fashion4 {
+  height: 500px;
+  position: relative;
+  align-items: center;
+  background-color: #ffff;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.fashion4 h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 1;
+}
+
+.fashion4 .main {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
+}
+
+.fashion4 .btn {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.fashion4 .btn button {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  color: #18518a;
+  border: 1px solid #18518a;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.fashion4 .btn button:hover {
+  background-color: #18518a;
+  color: #fff;
+}

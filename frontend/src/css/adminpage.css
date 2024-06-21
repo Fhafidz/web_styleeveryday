@@ -1,0 +1,156 @@
+@import url("https://fonts.cdnfonts.com/css/coolvetica");
+
+/* STYLE DEFAULT HALAMAN */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Coolvetica", sans-serif;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1350px;
+}
+
+/* STYLE home1 ATAU CONTENT-1 */
+.home1 {
+  height: 600px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background-color: #FFFF;
+}
+
+/* STYLE home2 ATAU CONTENT-2 */
+.home2 {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.home2 .content-2 .formal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content-2 .formal .second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 2rem;
+}
+
+.content-2 .formal .main img {
+  max-height: 396px;
+  transition: transform 0.2s;
+}
+
+.content-2 .formal img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.content-2 .formal .second img {
+  max-width: 220px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+/* STYLE home3 ATAU CONTENT-3 */
+.home3 {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.home3 .content-3 .casual {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content-3 .casual .second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content-3 .casual .main img {
+  max-height: 400px;
+  margin-left: 2rem;
+}
+
+.content-3 .casual img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.content-3 .casual .second img {
+  max-height: 305px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+/* STYLE home4 ATAU CONTENT-4 */
+.home4 {
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.home4 .content-4 .sporty {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.content-4 .sporty .second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 2rem;
+}
+
+.content-4 .sporty .main img {
+  max-height: 396px;
+}
+
+.content-4 .sporty img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.content-4 .sporty .second img {
+  max-width: 220px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+/* STYLE home5 ATAU CONTENT-5 */
+.home5 {
+  height: 600px;
+  position: relative;
+  background-color: #ffffff;
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 22rem;
+}
+
+.home5 .content-5 h1 {
+  color: #18518a;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  font-weight: 1;
+}
+
+.home5 .content-5 h1 span {
+  color: #fea94f;
+}
